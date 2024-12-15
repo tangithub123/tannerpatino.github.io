@@ -78,7 +78,10 @@ function updatePage() {
   loadVerbiage();
 }
 
-if (window.location.pathname.includes("index.html")) {
+if (
+  window.location.pathname === "/" ||
+  window.location.pathname === "/index.html"
+) {
   rightBtn.addEventListener("click", function () {
     currentIndex = (currentIndex + 1) % images.length;
     updatePage();
