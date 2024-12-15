@@ -91,6 +91,7 @@ if (
 
     updatePage();
   });
+  updatePage();
 }
 
 const hamburger = document.querySelector(".hamburger");
