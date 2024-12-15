@@ -1,11 +1,11 @@
 "use strict";
 
 const images = [
-  "pics/thunder_plinko_ss.png",
-  "pics/jets_ios.png",
-  "phone_pics/3 phone mockups.png",
-  "pics/iowa_state_gameday.png",
-  "logos/centered_flowandmow_logo.png",
+  "/pics/thunder_plinko_ss.png",
+  "/pics/jets_ios.png",
+  "/phone_pics/3 phone mockups.png",
+  "/pics/iowa_state_gameday.png",
+  "/logos/centered_flowandmow_logo.png",
 ];
 
 const transparentColors = [
