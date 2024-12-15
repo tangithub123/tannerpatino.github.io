@@ -91,12 +91,6 @@ if (
 
     updatePage();
   });
-  leftBtn.addEventListener("click", function () {
-    currentIndex = (currentIndex - 1 + images.length) % images.length;
-
-    updatePage();
-  });
-  updatePage();
 }
 
 const hamburger = document.querySelector(".hamburger");
